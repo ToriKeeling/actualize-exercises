@@ -2,3 +2,4 @@
 # Write code to print 3 different numbers to the terminal.
 puts 3
 puts 4 
+puts 5
