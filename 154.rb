@@ -57,3 +57,4 @@ class Person
   person = Person.new("Shawn", 42, "accountant")
 
   puts person.get_name, person.get_age, person.get_occupation
+puts "HELLO"
