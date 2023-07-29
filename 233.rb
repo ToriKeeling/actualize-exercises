@@ -30,8 +30,6 @@ end
 # Fix the errors with the code below.
 
 colors = ["red", "green", "blue"]
-index = 0
 colors.each do |colors|
   puts colors.upcase
-  index = index + 1
 end
