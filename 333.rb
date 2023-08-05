@@ -13,14 +13,16 @@
 # write 5 varibles with gets.chomp
 # add all varibles together then divid by 5
 
-puts "Please enter 5 numbers and I will give you the average:"
-number1 = gets.chomp
-number2 = gets.chomp
-number3 = gets.chomp
-number4 = gets.chomp
-number5 = gets.chomp
-sum = number1.to_i + number2.to_i + number3.to_i + number4.to_i + number5.to_i
-x = 5
+numbers = []
+5.times do
+  puts "Enter a number"
+  numbers << gets.chomp.to_i
+end
 
-puts sum.div(x)
-# I'm not sure why I cannot divide the sum
+sum = 0
+index = 1
+while index < numbers.length
+    sum = sum + numbers[index]
+    index = index + 1
+end
+p sum
