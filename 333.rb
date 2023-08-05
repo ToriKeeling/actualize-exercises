@@ -27,3 +27,4 @@ while index < numbers.length
 end
 p sum
 # TESTTEST
+puts "TEST"
