@@ -14,12 +14,28 @@ numbers = [4, 6, 1, 4, 2, 8, 3, 4, 1, 7]
 # the loop needs to continue as long as the length of the array is
 # each entry of the array that is printed needs to not be equal to each other
 
-index1 = 0
-while index1 < numbers.length
-    number1 = numbers[index1]
-    index2 = 0
-    while  index2 < numbers.length
-        index1 = index1 + 1
+
+
+# index1 = 0
+# while index1 < numbers.length
+#     number1 = numbers[index1]
+#     index2 = 0
+#     while  index2 < numbers.length
+#         index1 = index1 + 1
     
+#     end
+# end
+
+
+# Try starting with even smaller chunks.
+# Write a loop that prints out all the numbers.
+# Write a loop that prints the word "duplicate" when it finds a number equal to the first number.
+
+index = 0 
+while index < numbers.length
+    if numbers[index] == numbers[0]
+        puts "duplicate"
+        index = index + 1
     end
 end
+
