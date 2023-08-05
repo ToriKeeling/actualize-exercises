@@ -20,12 +20,9 @@ numbers = []
 end
 
 sum = 0
-index = 1
+index = 0
 while index < numbers.length
     sum = sum + numbers[index]
     index = index + 1
 end
-p sum
-# TESTTEST
-puts "TEST"
-puts "TEST"
+p answer = sum / 5
