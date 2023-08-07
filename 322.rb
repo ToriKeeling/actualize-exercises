@@ -8,6 +8,7 @@ dogs = [
   
 
 puts "1on1 w/K is fun"
+puts "git hub is not fun"
     
   index = 0
   dogs_names = []
