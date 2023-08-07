@@ -7,7 +7,7 @@ dogs = [
   ]
   
 
-  # I'm not sure what it is asking for
+
     
   index = 0
   dogs_names = []
