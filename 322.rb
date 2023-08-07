@@ -7,7 +7,7 @@ dogs = [
   ]
   
 
-
+puts "1on1 w/K is fun"
     
   index = 0
   dogs_names = []
