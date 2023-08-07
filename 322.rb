@@ -9,3 +9,10 @@ dogs = [
 
   # I'm not sure what it is asking for
     
+  index = 0
+  dogs_names = []
+  while index < dogs.length
+    dogs_names << dogs[index][:name]
+    index = index + 1
+  end
+  p dogs_names
