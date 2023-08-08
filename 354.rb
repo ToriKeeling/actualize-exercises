@@ -31,6 +31,8 @@ while swapped
     index = index + 1
 end
 
+puts "testing bc fucky laptop"
+
 # write a while loop with conditionals
 # compare item 0 to item 1
 # if item 0 is greater than item 1 then move item 1 to item 0
