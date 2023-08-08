@@ -18,7 +18,28 @@
 # Instead you'll write code to go through the array two items at a time 
 # to accomplish the same thing.
 
+# write an array
+# write a while loop
+# some how compare the lines of code together while movinf the larger number forward in the sequence
 
 
+numbers = [100, 35, 7, 1, 5, 99, 13, -1]
+# IRCT
+swapped = true
+while swapped  # Oh shit!!! Infinite loop!!!!!!
+  swapped = false # Phew! I get to stop....
+  index = 0
+  while index < numbers.length - 1 # Crap! Inner logic, gotta finish this...
+    if numbers[index] > numbers[index + 1] # | [last loop] - false 6 times
+      x = numbers[index]           
+      numbers[index] = numbers[index + 1]     
+      numbers[index + 1] = x  
+      swapped = true   # Oh shit! Infinite loop!!!! | [last loop] never read, see line 7
+    end 
+    index = index + 1
+  end
+end
 
-# still chewing on this one
+p numbers
+
+# this is still difficult for me to wrap my head around or even decompose
