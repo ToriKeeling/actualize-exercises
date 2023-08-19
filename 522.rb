@@ -15,6 +15,8 @@ cars = [
   model_names = extract_models(cars)
   puts model_names
 
+  puts "test"
+
   # I used chatgpt and I don't fully understand mapping, 
   # where can I find a deliberate practice problem like this? I was unable to find one
   

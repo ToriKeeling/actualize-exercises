@@ -24,5 +24,6 @@ while index < items.length
 end
 p items_hash
 
+puts "test"
 # I was not able to solve this by memory, 
 # this is something I need to practice again bc I had no idea how to write line 22
