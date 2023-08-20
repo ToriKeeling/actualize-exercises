@@ -1,0 +1,43 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(24, 114, 24);
+    margin: 0;
+}
+
+main {
+    max-width: 50em;
+    margin: 0 auto;
+    line-height: 2.0;
+    padding: 4em 1em;
+}
+
+h2 {
+margin-top: 1em;
+padding-top: 1em;
+color: rgb(27, 139, 102);
+}
+
+header {
+    background-image: url("https://64.media.tumblr.com/47b27b75d42060650f2d4d90a1e6183c/tumblr_o62r0qSlZ91upkmf0o1_r1_640.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+header h4 {
+    color: aliceblue;
+    font-size: 10em;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.2;
+    padding: 10vw 2em;
+}
+
+footer{
+    text-align: center;
+    background-color: rgb(159, 157, 157);
+    padding: 3em;
+
+   
+}
